@@ -58,7 +58,7 @@ function App() {
     let currWord = "";
 
     for(let i = 0; i < 5; i++){
-      currWord += board[currAttempt.attempt][i];
+      currWord += board[currAttempt.attempt][i].toLowerCase();
     }
 
     if(wordSet.has(currWord.toLowerCase())){
