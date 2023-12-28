@@ -1,5 +1,5 @@
 import React,{useCallback, useEffect, useContext} from 'react'
-import { AppContext } from '../App';
+import { AppContext } from '../Game';
 import Key from './Key';
 
 function Keyboard() {
